@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/static/logo.jpeg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+            display: grid;
+            justify-content: center;
+         
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            flex-wrap: wrap;
+            
+            margin-top: 200px;
+            gap:50px;
+            text-align: center;
+        }
+        img{
+            height: 140px;
+            width: 140px;
+        }
+        #firstheading{
+            font-size: 44px;
+            text-align: center;
+        }
+        @media screen and (max-width:611px) {
+            div{
+                height: 200px;
+                gap:0
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="/static/{{photo}}.png" class="image">
+        <h1 id="firstheading">You have scored {{scoreli}}% </h1>
+
+    </div>
+</body>
+</html>
