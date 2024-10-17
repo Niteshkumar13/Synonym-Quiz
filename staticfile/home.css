@@ -1,0 +1,112 @@
+body {
+
+    background-color: #FAEEE7;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+
+}
+
+
+.option-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 50px;
+}
+
+.option-container button {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 5px 10px;
+    min-width: 230px;
+    max-width: auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: 2px solid gray;
+
+    &:hover {
+        background-color: #dfd6d6;
+    }
+}
+
+img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 80px;
+    background-color: #FDBA74;
+    display: grid;
+    place-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+
+.header span {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.header {
+    padding-top: 30px;
+}
+
+.word-title {
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    place-items: center;
+    font-family: "Roboto", sans-serif;
+    padding: 10px 0;
+}
+
+.title {
+    font-size: 40px;
+
+}
+
+.word {
+    font-size: 25px;
+}
+
+.main-container {
+    padding-top: 100px;
+}
+
+@media screen and (max-width:426px) {
+    .main-container {
+        padding-top: 70px;
+    }
+
+    .option-container {
+        margin-top: 10px;
+    }
+
+    .option-container a,
+    .option-container>a>button {
+        width: 100%;
+    }
+}

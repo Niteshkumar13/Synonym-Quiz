@@ -1,45 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="/static/logo.jpeg">
+    <link rel="icon" href="/static/logo.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
+    <meta property="description"
+        content="Welcome to QuizMaster, the platform designed for quiz enthusiasts, educators, and anyone looking to challenge their knowledge. " />
+    <meta property="og:site_name" content="Quiz - Application" />
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="QuizMaster">
+    <meta property="og:description"
+        content="Welcome to QuizMaster, the platform designed for quiz enthusiasts, educators, and anyone looking to challenge their knowledge. ">
+    <meta property="og:image" content="/static/logo.jpg">
     <title>Document</title>
     <style>
-        body{
+        body {
             background-color: blanchedalmond;
             display: grid;
             justify-content: center;
-         
+
         }
-        div{
+
+        div {
             display: flex;
             justify-content: center;
             align-items: center;
             width: auto;
             flex-wrap: wrap;
-            
+
             margin-top: 200px;
-            gap:50px;
+            gap: 50px;
             text-align: center;
         }
-        img{
+
+        img {
             height: 140px;
             width: 140px;
         }
-        #firstheading{
+
+        #firstheading {
             font-size: 44px;
             text-align: center;
         }
+
         @media screen and (max-width:611px) {
-            div{
+            div {
                 height: 200px;
-                gap:0
+                gap: 0
             }
-            
+
         }
     </style>
 </head>
+
 <body>
     <div>
         <img src="/static/{{photo}}.png" class="image">
@@ -47,4 +64,5 @@
 
     </div>
 </body>
+
 </html>

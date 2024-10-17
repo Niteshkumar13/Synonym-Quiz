@@ -15,7 +15,7 @@ def home(request):
 
 
 
-def hello(request):
+def check(request):
      global i,scorel
      p = 0
      global timer

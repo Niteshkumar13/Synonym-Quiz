@@ -1,4 +1,5 @@
-synonyms = [{'word':'Modest','option':['Attractive','Clever','Current','Humble'],'answer':4},
+synonyms = [
+    {'word':'Modest','option':['Attractive','Clever','Current','Humble'],'answer':4},
     {'word':'Custom','option':['Dessert','Habit','Ethic','Deliver'],'answer':2},
     {'word':'Prolong','option':['Extend','Inquire','Relax','Wait'],'answer':1},
     {'word':'Hustle','option':['Dance','Hurry','Busy','Clean'],'answer':2},
